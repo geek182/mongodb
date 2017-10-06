@@ -1,0 +1,7 @@
+##increase loglevel
+#https://docs.mongodb.com/manual/reference/method/db.setLogLevel
+
+##specific for all
+db.setLogLevel(0)
+##for specific
+db.setLogLevel(0, "network")
